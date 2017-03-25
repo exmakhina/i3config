@@ -152,7 +152,7 @@ bar {
 # xrandr -q gives the list of available displays
 # HDMI3 is DVI output of base station
 # LVDS1 is the laptop built-in display
-exec --no-startup-id xrandr --output HDMI3 --auto --left-of LVDS1
+exec --no-startup-id xrandr --output HDMI1 --auto --left-of LVDS1
 
 # Background color
 exec --no-startup-id xsetroot -solid "#333333"
